@@ -21,7 +21,7 @@ static int mfd = -1, qfd = -1;
 static struct sh_memory *mem = NULL;
 static int start_user(){
 
-  if(num_c >= ){
+  if(num_c >= max){
     return 0;
   }
 
